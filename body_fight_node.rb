@@ -3,7 +3,7 @@ class BodyFightNode < Node
     super
 
     patient.health -= rand(patient.age / 4)
-    patient.health += 20
+    patient.health += 25
     next_node.process(patient: patient)
   end
 end

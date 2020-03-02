@@ -1,4 +1,4 @@
-class LowHealthNode < Node
+class LowHealthCheckNode < Node
   def process(patient:)
     super
 
